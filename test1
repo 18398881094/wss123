@@ -1,0 +1,8 @@
+import webbrowser
+a="ly"
+while 1:
+    a=input("请输入检索词：")
+    if a == "-":
+        break;
+    webbrowser.open('https://www.baidu.com/s?wd={url}'.format(url=a), new=0, autoraise=True)
+
